@@ -1,0 +1,38 @@
+<html>
+<body>
+
+<h1 style="font-family:verdana; color:red; text-align:center; font size: 500%">RUN THE DOCKER COMMANDS</h1>
+
+<style>
+html{
+  background: url(d2.gif) no-repeat center fixed;
+  background-size: cover;
+}
+</style>
+
+<script>
+function cmd()
+{
+    var objXHR = new XMLHttpRequest();
+    objXHR.open("GET", "http://192.168.65.153/cgi-bin/vru.py?x="+document.getElementById('input').value,"true");
+    objXHR.send();
+
+    objXHR.onload = function ()
+    {
+        document.getElementById('out').innerHTML = objXHR.responseText;
+        document.getElementById('out').style.fontSize = "15px";
+        document.getElementById('out').style.backgroundColor = "yellow";
+        document.getElementById('out').style.textAlign = "center";
+        document.getElementById('out').style.fontFamily = "verdana";
+    }
+}
+
+</script>
+
+<body id="main">
+<div><center><b><p style="color:red;">root@ip-192-168-65-153:~#<input id="input"/><button onclick="cmd();">Run</button></div></center></b></p>
+<pre><div id="out"><center><strong><p style="color:red; font-size: 200%; font-family:verdana; background-color:powderblue">OUTPUT</div></pre></center></strong></p>
+
+
+
+</body>
