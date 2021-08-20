@@ -1,19 +1,22 @@
-# JAVASCRIPT_-_-DOCKER🤗
+# AJAX DOCKER WEBAPP
 
 Javascript Integration with Docker
 Task Description 📄
 
 ⚙️ Task 7.1 -
 
-📌 In this task you have to create a Web Application for Docker (one of the great Containerization Tool which provides the user Platform as a Service (PaaS)) by showing your own creativity and UI/UX designing skills to make the webportal user friendly.
+🎯 We have created a Web Application for 𝗗𝗼𝗰𝗸𝗲𝗿 using 𝗔𝗝𝗔𝗫.
 
-📌 This app will help the user to run all the docker commands like:
- 
-  👉docker images
-  👉docker ps
-  👉docker run
-  👉docker rm -f
-  👉docker pull
+📌 Perform all the Linux operations
+
+📌 This app will help the user to run all the docker commands like-
+👉 docker images
+👉 docker ps
+👉 docker run
+👉 docker rm -f
+👉 docker exec
+& 𝙈𝙖𝙣𝙮 𝙈𝙤𝙧𝙚
+
   
-Languages Used are: PYTHON,CSS,HTML AND JAVASCRIPT.
+## Languages Used are: PYTHON,CSS,HTML AND JAVASCRIPT.
   
